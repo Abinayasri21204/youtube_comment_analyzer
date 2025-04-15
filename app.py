@@ -11,7 +11,7 @@ sentiment_pipeline = pipeline("sentiment-analysis")
 toxic_classifier = pipeline("text-classification", model="unitary/toxic-bert", top_k=None)
 
 # YouTube API Key
-YOUTUBE_API_KEY = "Your_API_Key"
+YOUTUBE_API_KEY = "API_key"
 
 # Extract video ID from URL
 def extract_video_id(url):
